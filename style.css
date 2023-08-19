@@ -198,3 +198,13 @@ h1{
     mix-blend-mode: darken;
     margin-left: 10px;
 }
+#location-not-found{
+    display: none;
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 40%;
+    width: 40%;
+}
+#location-not-found.active{
+    display: flex;
+}
